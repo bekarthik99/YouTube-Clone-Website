@@ -1,0 +1,986 @@
+.main-container{
+    width: 100%;
+    height: 800px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    padding-top: 8px;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+    float: left;
+}
+.logodiv{
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+.search{
+    width: 650px;
+    height: 48px;
+    float: left;
+    margin-left: 205px;
+}
+.voice{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-left: 10px;
+}
+.setmenu{
+    width: 20px;
+    height: 40px;
+    float: left;
+    margin-left: 255px;
+}
+.profile{
+    width: 115px;
+    height: 48px;
+    float: left;
+    margin-left: 10px;
+}
+.toggle{
+    width: 19px;
+    height: 1.35px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 1px;
+    background-color: black;
+}
+.wrap{
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 12px;
+}
+.logo{
+    width: 102px;
+    margin-top: 2px;
+}
+.searchbardiv{
+    width: 535px;
+    height: 45px;
+    margin-left: 45px;
+    float: left;
+}
+.searchbuttondiv{
+    width: 65px;
+    height: 45px;
+    float: left;
+}
+.searchbar{
+    width: 512px;
+    height: 38px;
+    border-radius: 30px 0px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6c6c6;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.searchbutton{
+    width: 65px;
+    height: 41.5px;
+    border-width: 1px;
+    background-color: #f8f8f8;
+    border-color: #d3d3d3;
+    border-style: solid;
+    border-radius: 0px 40px 40px 0px;
+}
+.searchimg{
+    scale: .24;
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.voicesearch{
+    width: 41px;
+    height: 41px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 3px;
+    background-color: #f0f1f4;
+}
+.mic{
+    margin-top: -236px;
+    margin-left: -242px;
+    scale: .034;
+}
+.setwrap{
+    width: 15px;
+    height: 40px;
+    margin-left: 5px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.setdots{
+    width: 3.35px;
+    height: 3.5px;
+    border-radius: 100px;
+    border-width: 0px;
+    background-color: rgb(40, 38, 38);
+    margin-top: 3px;
+}
+.signin{
+    width: 98px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    background-color: white;
+    margin-left: 12px;
+    margin-top: 2px;
+}
+.profileimg{
+    width: 23px;
+    margin-top: 5px;
+    margin-left: -52px;
+}
+.signtext{
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #065FD4;
+    font-size: 15px;
+    margin-top: -27px;
+    margin-left: 50px;
+}
+.sidebar{
+    width: 260px;
+    height: 800px;
+    float: left;
+}
+.content-type{
+    width: 1252px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.content{
+    width: 1252px;
+    height: 1300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.primary{
+    width: 260px;
+    height: 130px;
+    float: left;
+}
+.personal{
+    width: 260px;
+    height: 110px;
+    float: left;
+}
+.signremind{
+    width: 260px;
+    height: 120px;
+    float: left;
+}
+.explore{
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.more{
+    width: 260px;
+    height: 170px;
+    float: left;
+}
+.final{
+    width: 260px;
+    height: 185px;
+    float: left;
+}
+.about{
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+.home{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    border-width: 0px;
+    float: left;
+}
+.logohome{
+    width: 24px;
+    margin-left: 6px;
+    margin-top: 5px;
+    float: left;
+}
+.hometxt{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.shorts{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    border-width: 0px;
+    float: left;
+}
+.logoshorts{
+    width: 21px;
+    margin-left: 8px;
+    margin-top: 7px;
+    float: left;
+}
+.shortstxt{
+    margin-left: 26px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.subscriptions{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    border-width: 0px;
+    float: left;
+}
+.imgsubs{
+    width: 22px;
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+}
+.substxt{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.dividor{
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.you{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    border-width: 0px;
+    float: left;
+    margin-top: 17px;
+}
+.youimg{
+    width: 26px;
+    margin-top: 5px;
+    margin-left: 6px;
+    float: left;
+}
+.youtxt{
+    margin-left: 24px;
+    margin-top: 9px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.history{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    border-width: 0px;
+    float: left;
+}
+.histimg{
+    width: 18px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+}
+.historytxt{
+    margin-left: 27px;
+    margin-top: 9px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.dividor2{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.signremindtxt{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 32px;
+    line-height: 20px;
+    color: #0f0f0f;
+    float: left;
+}
+.signinreminderbutton{
+    width: 98px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    background-color: white;
+    margin-left: 32px;
+    margin-top: -1px;
+}
+.signinreminderimg{
+    width: 22px;
+    margin-top: 6px;
+    margin-left: -54px;
+}
+.signinremindertxt{
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #065FD4;
+    font-size: 14px;
+    margin-top: -24px;
+    margin-left: 26px;
+}
+.dividor3{
+    padding-left: 0px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.explorehead{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    color: #0f0f0f;
+    margin-top: 17px;
+    margin-left: 24px;
+    float: left;
+    font-weight: 550;
+    white-space: normal;
+}
+.trending{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: -8px;
+    border-width: 0px;
+    float: left;
+}
+.trendingimg{
+    width: 22px;
+    margin-top: 6px;
+    margin-left: 7px;
+    float: left;
+}
+.trendingtxt{
+    margin-left: 26px;
+    margin-top: 9px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.shopping{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.shoppingimg{
+    width: 32px;
+    margin-top: -1px;
+    margin-left: 2px;
+    float: left;
+}
+.shoppingtxt{
+    margin-left: 21px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.music{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.musicimg{
+    width: 18px;
+    margin-top: 7px;
+    margin-left: 9px;
+    float: left;
+}
+.musictxt{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.movies{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.moviesimg{
+    width: 22px;
+    margin-top: 6px;
+    margin-left: 9px;
+    float: left;
+}
+.moviestxt{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.live{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.liveimg{
+    width: 26px;
+    margin-top: 4px;
+    margin-left: 7px;
+    float: left;
+}
+.livetxt{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.gaming{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.gamingimg{
+    width: 26px;
+    margin-top: 4px;
+    margin-left: 7px;
+    float: left;
+}
+.gamingtxt{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.news{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.newsimg{
+    width: 19px;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.newstxt{
+    margin-left: 26px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.sports{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.sportsimg{
+    width: 23px;
+    margin-top: 6px;
+    margin-left: 8px;
+    float: left;
+}
+.sportstxt{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.courses{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.coursesimg{
+    width: 23px;
+    margin-top: 6px;
+    margin-left: 8px;
+    float: left;
+}
+.coursestxt{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.fashion{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.fashionimg{
+    width: 18px;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.fashiontxt{
+    margin-left: 27px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.podcast{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left; 
+}
+.podcastimg{
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 7px;
+    float: left;
+}
+.podcasttxt{
+    margin-left: 23px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.dividor4{
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.morehead{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    color: #0f0f0f;
+    margin-top: 5px;
+    margin-left: 24px;
+    float: left;
+    font-weight: 550;
+    white-space: normal;
+}
+.premium{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.premiumimg{
+    width: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.premiumtxt{
+    margin-left: 23px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.music{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.musicimg{
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+}
+.musictxt{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.kids{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.kidsimg{
+    width: 22px;
+    margin-top: 7px;
+    margin-left: 9px;
+    float: left;
+}
+.kidstxt{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.dividor5{
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.settings{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 13px;
+    border-width: 0px;
+    float: left;
+}
+.settingsimg{
+    width: 18px;
+    margin-top: 9px;
+    margin-left: 11px;
+    float: left;
+}
+.settingstxt{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.report{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.reportimg{
+    width: 22px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+}
+.reporttxt{
+    margin-left: 23px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.help{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.helpimg{
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 11px;
+    float: left;
+}
+.helptxt{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.feedback{
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-width: 0px;
+    float: left;
+}
+.feedbackimg{
+    width: 23px;
+    margin-top: 6px;
+    margin-left: 10px;
+    float: left;
+}
+.feedbacktxt{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+}
+.dividor6{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 0px;
+    color: #dadde1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.footercontents{
+    font-family: Roboto, Arial, sans-serif;
+    color: #606060;
+    float: left;
+    font-size: 13px;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.aboutin{
+    width: 194px;
+    height: 68px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.aboutin2{
+    width: 200px;
+    height: 68px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+.copyrighttag{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: 12px;
+    color: #909090;
+    float: left;
+}
+.genre{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    width: auto;
+    height: 30px;
+    padding: 7px 14px 14px 14px;
+    border-radius: 8px;
+    background-color: #f0f1f4;
+    border-style: solid;
+    border-width: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 550;
+    color: #0f0f0f;
+}
+.videocontent{
+    margin-top: 6px;
+    width: 400px;
+    height: 325px;
+    padding-inline-end: 9px;
+    padding-inline-start: 5px;
+    padding-bottom: 35px;
+    align-items: center;
+    float: left;
+}
+.thumbnail{
+    width: 398px;
+    height: 224px;
+    border-radius: 15px;
+    background-color: #606060;
+}
+.channellogo{
+    margin-top: 13px;
+    margin-left: 2px;
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #606060;
+    float: left;
+}
+.vidtitle{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    float: left;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-left: 13px;
+}
+.setwrapvid{
+    margin-top: 18px;
+    margin-left: 124px;
+    float: left;
+}
+.chname{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: #606060;
+}
+.videomisc{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    float: left;
+    margin-top: -14px;
+    margin-left: 0px;
+    color: #606060;
+    text-align: center;
+}
+.channelnameother{
+    width: 180px;
+    height: 34px;
+    margin-top: 13px;
+    margin-left: 52px;
+    float: left;
+}
+body{
+    margin: 0;
+}
